@@ -1,0 +1,16 @@
+# config file
+configuration/config.js
+configuration/credentialsgit .js
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+
+*.jpg
+*.log
+*.DS_Store
