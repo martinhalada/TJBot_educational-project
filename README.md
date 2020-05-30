@@ -1,6 +1,6 @@
-# TJBot CZ - LITE VERSION (geographically oriented educational project)
+# Geographically oriented educational project for TJBot
 
-This is a program coded in Node.js for TJBotCZ. It allows you to:
+This is a program coded in Node.js for TJBotCZ. The original files were modified. It allows you to:
 * communicate about the capitals of Europe
 * take a quiz to test your knowledge
 
