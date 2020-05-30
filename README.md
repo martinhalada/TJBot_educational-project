@@ -1,17 +1,9 @@
-# TJBot CZ - LITE VERSION
+# TJBot CZ - LITE VERSION (geographically oriented educational project)
 
-This is a program coded in Node.js for TJBotCZ.  It is a basic sample application that allows you to:
-* run pre-prepared conversation
-* control RGB light on TJBotCZ's head
-* control TJBotCZ's arm
-* use camera to take a picture and analyze it
+This is a program coded in Node.js for TJBotCZ. It allows you to:
+* communicate about the capitals of Europe
+* take a quiz to test your knowledge
 
+You can try chatbot under this link:
 
-_Note: TJBot's name is Michael, unless you change it in config.js file. So when you speek to TJBot, use "Michael" in your sentence. Only then will he process the sentence._
-
-
-To create your own conversation dialogs we recommend to visit one of these free tutorials:
-
-[How to build a chatbot](https://cognitiveclass.ai/courses/how-to-build-a-chatbot/)
-
-[Chatbots and Watson: Let’s talk about national parks](https://developer.ibm.com/courses/all/chatbots-watson-lets-talk-national-parks/)
+https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=17a26922-8e8c-4951-9069-75a9ee75a220&serviceInstanceID=6547dbf5-a025-4722-83a3-096204b92c28
