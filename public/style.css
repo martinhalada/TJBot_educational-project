@@ -1,0 +1,373 @@
+html {
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #FFF6D3;
+  font-family: "Helvetica", sans-serif;
+  color: #BF9000;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+body {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.success {
+  position: fixed;
+  display: block;
+  width: 90vw;
+  height: 90vh;
+  opacity: 0;
+  border-radius: 100px;
+  background-color: white;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
+.success img{
+  display: block;
+  width: 20%;
+  height: auto;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.success h1{
+  display: block;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding-top: 8%;
+  padding-bottom: 1rem;
+}
+
+.success p {
+  color: #7F6000;
+  text-align: center;
+  margin: 0rem;
+}
+
+.fail {
+  position: fixed;
+  display: block;
+  width: 90vw;
+  height: 90vh;
+  opacity: 0;
+  border-radius: 100px;
+  background-color: white;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
+.fail img{
+  display: block;
+  width: 20%;
+  height: auto;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.fail h1{
+  display: block;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding-top: 8%;
+  padding-bottom: 1rem;
+}
+
+.fail p {
+  color: #7F6000;
+  text-align: center;
+  margin: 0rem;
+}
+
+code {
+  color: red;
+}
+
+.main-content {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.container {
+  position: relative;
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.container .img-area {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.container .img-area img {
+  position: relative;
+  display: block;
+  width: 10%;
+  height: auto;
+  margin: auto;
+}
+
+.container .form-area {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.container .form-area {
+  position: relative;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.container .form-area form label, input {
+  display: block;
+  position: relative;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.container .form-area form input ,input::placeholder {
+  font-size: 18px;
+  font-weight: bold;
+  color: #7F6000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container .form-area form .language-area {
+  background: #fff;
+  border: 1px solid #BF9000;
+  border-radius: 100px;
+  min-width: 50px;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  transition: 0.5s width ease;
+}
+
+.container .form-area form .language-area {
+  width: 100%;
+  transition: 0.5s width ease;
+  cursor: pointer;
+}
+
+.container .form-area form .language-area .lang-area {
+  display: inline-block;
+  width: 22%;
+  box-sizing: border-box;
+  transition: 0.1s width ease;
+}
+
+.container .form-area form .language-area .lang-area {
+  width: 22%;
+  margin: auto;
+  margin-left: 0.5%;
+  transition: 0.1s width ease;
+}
+
+.container .form-area form .language-area .lang-area:hover .lang-card {
+  font-weight: bolder;
+  transform: scale(1.1);
+}
+
+.container .form-area form .language-area .lang-area .lang-card {
+  display: grid;
+  grid-template-columns: 70% 25% 5%;
+  transition: 0.1s grid-template-comlumns ease;
+}
+
+.container .form-area form .language-area .lang-area .lang-card input {
+  display: none;
+  width: auto;
+}
+
+.container .form-area form .language-area .lang-area .lang-card img {
+  width: 100%;
+  display: inline;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.container .form-area form .language-area .lang-area .lang-card img {
+  width: 50%;
+}
+
+.container .form-area form .language-area .lang-area .lang-card .caption {
+  display: inline;
+  transition: 0.1s display ease;
+}
+
+.container .form-area form label {
+  text-align: center;
+}
+
+.container .form-area form input {
+  width: 100%;
+  height: 40px;
+  border-radius : 100px;
+  border: 1px solid #BF9000;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+
+.container .form-area form input:focus {
+  border: 2.5px solid #BF9000;
+  outline: none;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.gender .switch {
+  margin: auto;
+  margin-left: 10%;
+  margin-top: 25%;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #BF9000;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.gender .slider {
+  background-color: #4f7eFB;
+}
+
+.optional .slider-area {
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  margin-top: -1rem;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ccc;
+}
+
+.gender input:checked + .slider {
+  background-color: #ed7a79;
+}
+
+.gender input:focus + .slider {
+  box-shadow: 0 0 1px #ed7a79;
+}
+
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.gender input:checked + .slider:before {
+  -webkit-transform: translateX(675%);
+  -ms-transform: translateX(675%);
+  transform: translateX(675%);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.gender .slider.round {
+  border-radius: 34px;
+  width: 350%;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.gender {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  margin-bottom: 5rem;
+}
+
+.optional label {
+  display: inline-block;
+  text-align: right;
+}
+
+.claimer {
+  display: none;
+}
+
+.container .form-area form input[type="submit"] {
+  width: 50%;
+  background: #BF9000;
+  color: white;
+  margin: auto;
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+
+.container .form-area form input[type="submit"]:hover {
+  width: 55%;
+  transition: 0.5s all ease;
+}
+
+.credentials {
+  margin-top: -3rem;
+}
+
+.container .form-area form .credentials input {
+  font-size: 12px;
+}

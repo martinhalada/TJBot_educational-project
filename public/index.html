@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TJBot CZ Config</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/tjbot.png">
+</head>
+<body> 
+    <div class="success">
+        <h1>YOUR TJBOT IS READY TO BE USED!</h1>
+        <p>Get back to the commandline and use <code>Ctrl + C</code> to quit the setup mode.</p>
+        <p>Make sure to be in a folder where your tjbotcz_lite.js is placed.</p>
+        <p>Then Run <code style="text-transform: lowercase;">sudo node tjbotcz_lite.js</code></p>
+        <img src="./img/tjbot_illustrated.png" alt="tjbot">
+    </div>
+    <div class="fail">
+        <h1>OH NO, THIS SEEMS WRONG</h1>
+        <p>Get back to the commandline and use <code>Ctrl + C</code> to quit the setup mode</p>
+        <p>Then Run <code style="text-transform: lowercase;">sudo node easy.js</code> and try again.</p>
+        <img src="./img/tjbot_illustrated_404.png" alt="tjbot">
+    </div>
+    <div class="main-content">
+        <div class="container">
+                <div class="img-area">
+                    <img src="./img/tjbot.png" alt="tjbot">
+                </div>
+                <div class="form-area">
+                        <iframe name="hiddenFrame" width="0" height="0" style="display: block; border: none;"></iframe>
+                        <form method="post" action="/rest/cred" target="hiddenFrame">
+                            <div class="config">
+                                <label>TJBotcz Name</label>
+                                <input type="text" name="tjname" placeholder="TJBot Name" required>
+                                <label>TJBot Understands</label>
+                                <div class="language-area">
+
+                                    <div class="lang-area">
+                                        <div class="lang-card">
+                                            <img src="./img/eng.png" alt="ENG">
+                                            <div class="caption">
+                                                <p>ENG</p>
+                                            </div>
+                                            <input class="language hear" type="radio" name="language_hear" value="en-US" checked>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="lang-area">
+                                        <div class="lang-card">
+                                            <img src="./img/de.png" alt="DE">
+                                            <div class="caption">
+                                                <p>DE</p>
+                                            </div>
+                                            <input class="language hear" type="radio" name="language_hear" value="de-DE">                                        
+                                        </div>
+                                    </div>
+
+                                    <div class="lang-area">
+                                        <div class="lang-card">
+                                            <img src="./img/es.png" alt="ES">
+                                            <div class="caption">
+                                                <p>ES</p>
+                                            </div>
+                                            <input class="language hear" type="radio" name="language_hear" value="es-ES">                                        
+                                        </div>
+                                    </div>
+
+                                    <div class="lang-area">
+                                        <div class="lang-card">
+                                            <img src="./img/fr.png" alt="FR">
+                                            <div class="caption">
+                                                <p>FR</p>
+                                            </div>
+                                            <input class="language hear" type="radio" name="language_hear" value="fr-FR">                                        
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <label>TJBot Speak</label>
+
+                                <div class="language-area">
+                                    <div class="lang-area">
+                                        <div class="lang-card">
+                                            <img src="./img/eng.png" alt="ENG">
+                                            <div class="caption">
+                                                <p>ENG</p>
+                                            </div>
+                                            <input class="language speak" type="radio" name="language_speak" value="en-US" checked>
+                                        </div>
+                                    </div>
+
+                                    <div class="lang-area">
+                                        <div class="lang-card">
+                                            <img src="./img/de.png" alt="DE">
+                                            <div class="caption">
+                                                <p>DE</p>
+                                            </div>
+                                            <input class="language speak" type="radio" name="language_speak" value="de-DE">                                        
+                                        </div>
+                                    </div>
+
+                                    <div class="lang-area">
+                                        <div class="lang-card">
+                                            <img src="./img/es.png" alt="ES">
+                                            <div class="caption">
+                                                <p>ES</p>
+                                            </div>
+                                            <input class="language speak" type="radio" name="language_speak" value="es-ES">                                        
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="lang-area">
+                                        <div class="lang-card">
+                                            <img src="./img/fr.png" alt="FR">
+                                            <div class="caption">
+                                                <p>FR</p>
+                                            </div>
+                                            <input class="language speak fr" type="radio" name="language_speak" value="fr-FR">                                      
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <label>Gender</label>
+                                
+                                <div class="slider-area gender">
+                                    <img src="./img/male.png" alt="">
+                                    <label class="switch">
+                                        <input class="hidden-btn" type="hidden" name="gender" value="male">
+                                        <input class="gender-btn" type="checkbox" name="gender" placeholder="gender" value="male">
+                                        <span class="slider gender-slider round"></span>
+                                    </label>
+                                    <p class="claimer" style="font-size: 10px; position: absolute; top: 50vh; left: 11vw;" class="claimer">For French I have only female voice.<p>  
+                                    <img src="./img/female.png" alt="">
+                                </div>
+                            </div>
+                            <div class="credentials">
+                                <label>Credentials - Watson Assistant</label>
+                                <br>
+                                <input type="text" name="wa_workspaceID" placeholder="workspace ID" required>
+                                <br>
+                                <input type="text" name="wa_iam_apikey" placeholder="iam_apikey" required>
+                                <br>
+                                <input type="text" name="wa_url" placeholder="url" required>
+                                <br>
+                                <label>Credentials - Speech to Text</label>
+                                <br>
+                                <input type="text" name="stt_iam_apikey" placeholder="iam_apikey" required>
+                                <br>
+                                <input type="text" name="stt_url" placeholder="url" required>
+                                <br>
+                                <label>Credentials - Text to Speech</label>
+                                <br>
+                                <input type="text" name="tts_iam_apikey" placeholder="iam_apikey" required>
+                                <br>
+                                <input type="text" name="tts_url" placeholder="url" required>
+                                <br>
+                                <label>Credentials - Visual Recognition</label>
+                                <br>
+                                <input type="text" name="vr_iam_apikey" placeholder="iam_apikey" required>
+                                <div class="toneanalyzer-area optional">
+                                    <br>
+                                    <label style="display: inline-block; width: 99%;">Credentials - Tone Analyzer</label>
+                                    <div class="slider-area">
+                                        <label class="switch">
+                                            <input class="on-off" type="checkbox">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                    
+                                    <div class="input-area">
+                                        <br>
+                                        <input type="text" name="ta_iam_apikey" placeholder="iam_apikey" required>
+                                        <br>
+                                        <input type="text" name="ta_url" placeholder="url" required>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="translang-area optional">
+                                    <label style="display: inline-block; width: 99%;">Credentials - Language Translator</label>
+                                    <div class="slider-area">
+                                        <label class="switch">
+                                            <input class="on-off" type="checkbox">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                    <div class="input-area">
+                                        <br>
+                                        <input type="text" name="lt_iam_apikey" placeholder="iam_apikey" required>
+                                        <br>
+                                        <input type="text" name="lt_url" placeholder="url" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-area">
+                                <input class="sub" type="submit" value="Submit">
+                            </div>
+                        </form>
+                </div>
+        </div>
+    </div>
+    
+<script src="./app.js" type="text/javascript"></script>
+</body>
+</html>

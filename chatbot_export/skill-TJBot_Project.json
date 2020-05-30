@@ -1,0 +1,3300 @@
+{
+  "intents": [
+    {
+      "intent": "Testing",
+      "examples": [
+        {
+          "text": "Let's check my knowledge"
+        },
+        {
+          "text": "Do a review"
+        },
+        {
+          "text": "Go for review"
+        },
+        {
+          "text": "Can we do the midterm exam?"
+        },
+        {
+          "text": "Show me the final exam"
+        },
+        {
+          "text": "Please, prepare theory test"
+        },
+        {
+          "text": "How about some evaluation."
+        },
+        {
+          "text": "What about doing a paper."
+        },
+        {
+          "text": "Do questioning"
+        },
+        {
+          "text": "Let's do the exam."
+        },
+        {
+          "text": "Prepare question"
+        },
+        {
+          "text": "Ask a question"
+        },
+        {
+          "text": "Set question"
+        },
+        {
+          "text": "test"
+        },
+        {
+          "text": "Prepare quiz"
+        },
+        {
+          "text": "I would like to take a test."
+        },
+        {
+          "text": "Testing 1 random question"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "I’m out"
+        },
+        {
+          "text": "Peace"
+        },
+        {
+          "text": "I gotta take off"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Till next time"
+        },
+        {
+          "text": "Take it easy"
+        },
+        {
+          "text": "I look forward to our next meeting"
+        },
+        {
+          "text": "See you soon"
+        },
+        {
+          "text": "I must be going"
+        },
+        {
+          "text": "Quit"
+        },
+        {
+          "text": "Talk to you later"
+        },
+        {
+          "text": "I’ve got to get going"
+        },
+        {
+          "text": "I’m off"
+        },
+        {
+          "text": "Exit"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day"
+        },
+        {
+          "text": "Later"
+        },
+        {
+          "text": "Take care"
+        },
+        {
+          "text": "Goodnight"
+        }
+      ]
+    },
+    {
+      "intent": "Learning",
+      "examples": [
+        {
+          "text": "Give me answer for capital city"
+        },
+        {
+          "text": "Big city in Poland"
+        },
+        {
+          "text": "What is the capital town of Czech republic."
+        },
+        {
+          "text": "Where can I find the info about capital city of Monaco."
+        },
+        {
+          "text": "Provide me information about capital city of Spain."
+        },
+        {
+          "text": "what is the capital of czech republic."
+        },
+        {
+          "text": "what city in poland"
+        },
+        {
+          "text": "I would like to learn something."
+        },
+        {
+          "text": "Let's talk about capital cities."
+        },
+        {
+          "text": "I want to ask you about something."
+        },
+        {
+          "text": "Do you know what is the capital city of England?"
+        },
+        {
+          "text": "What is the largest city in Germany?"
+        },
+        {
+          "text": "I would like to know something"
+        },
+        {
+          "text": "Capital city in Germany"
+        },
+        {
+          "text": "What about Austria?"
+        },
+        {
+          "text": "How about Italy?"
+        },
+        {
+          "text": "I am interested in capital city of Norway."
+        },
+        {
+          "text": "Is Moscow the capital city of Russia?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Help",
+      "examples": [
+        {
+          "text": "I need assistance"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "How am I supposed to use this chatbot?"
+        },
+        {
+          "text": "What should I do?"
+        },
+        {
+          "text": "What is your capabilities?"
+        },
+        {
+          "text": "I need your help"
+        },
+        {
+          "text": "Provide me some support"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Hello",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "What’s going on?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How do you do?"
+        },
+        {
+          "text": "What’s new?"
+        },
+        {
+          "text": "What’s up?"
+        },
+        {
+          "text": "How are you doing?"
+        },
+        {
+          "text": "How’s it going?"
+        },
+        {
+          "text": "How are things?"
+        },
+        {
+          "text": "Hey man"
+        },
+        {
+          "text": "morning"
+        },
+        {
+          "text": "It’s a pleasure to meet you."
+        },
+        {
+          "text": "It’s nice to meet you."
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "G’day mate!"
+        },
+        {
+          "text": "Pleased to meet you"
+        },
+        {
+          "text": "Nice to see you"
+        },
+        {
+          "text": "How’s life?"
+        },
+        {
+          "text": "howdy"
+        },
+        {
+          "text": "Good morning"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "state",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Albania",
+          "synonyms": [
+            "alban"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Andorra",
+          "synonyms": [
+            "andora"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Austria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Belarus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Belgium",
+          "synonyms": [
+            "belgia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bosnia and Herzegovina",
+          "synonyms": [
+            "bosna",
+            "bosnia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bulgaria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Croatia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cyprus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Czech Republic",
+          "synonyms": [
+            "czech",
+            "czechia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Denmark",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Estonia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "France",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Germany",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Greece",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hungary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Iceland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ireland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Italy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Latvia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Liechtenstein",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lithuania",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Luxembourg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Malta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Moldova",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Monaco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Montenegro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Netherlands",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "North Macedonia",
+          "synonyms": [
+            "makedonia",
+            "macedonia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Norway",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Poland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Portugal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Romania",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Russia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Marino",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Serbia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Slovakia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Slovenia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sweden",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Switzerland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ukraine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "United Kingdom",
+          "synonyms": [
+            "england"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vatican City",
+          "synonyms": [
+            "vatican"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "negative",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nothing",
+            "without",
+            "never",
+            "not",
+            "nobody",
+            "nope"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "positive",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yeah",
+            "okay",
+            "yep",
+            "oh",
+            "so",
+            "sure",
+            "yup",
+            "hey",
+            "alright",
+            "ok",
+            "uh",
+            "well",
+            "guess",
+            "good",
+            "maybe"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "capital",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Warsaw",
+          "synonyms": [
+            "varsav"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Amsterdam",
+          "synonyms": [
+            "amsterodam"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Andorra la Vella",
+          "synonyms": [
+            "andora"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Athens",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Belgrade",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Berlin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bern",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bratislava",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brussels",
+          "synonyms": [
+            "brusel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Budapest",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bucharest",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Copenhagen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dublin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Helsinki",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chisinau",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kiev",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lisbon",
+          "synonyms": [
+            "lisabon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ljubljana",
+          "synonyms": [
+            "ljubjan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "London",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Luxembourg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madrid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Minsk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Monaco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Moscow",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nicosia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Oslo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paris",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Podgorica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prague",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reykjavík",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Riga",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rome",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Marino",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sarajevo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skopje",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sofia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stockholm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tallinn",
+          "synonyms": [
+            "talin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tirana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vaduz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Valletta",
+          "synonyms": [
+            "valeta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vatican City",
+          "synonyms": [
+            "vatican"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vienna",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vilnius",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Zagreb",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "parent": "node_10_1575099037748",
+      "variable": "$numOfGenQuestions",
+      "dialog_node": "slot_6_1575099608191",
+      "previous_sibling": "handler_1_1575099607631"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_10_1575099037748",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1575099607631"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "How many questions?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1575099608191",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1575099608201",
+      "previous_sibling": "handler_8_1575099608201"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1575099608191",
+      "context": {
+        "numOfGenQuestions": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_8_1575099608201"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Germany?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:15",
+      "dialog_node": "response_3_1581857210932",
+      "previous_sibling": "response_9_1581857210029"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Greece?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:16",
+      "dialog_node": "response_4_1581857211820",
+      "previous_sibling": "response_3_1581857210932"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Lithuania?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:23",
+      "dialog_node": "response_1_1581857218653",
+      "previous_sibling": "response_1_1581857217529"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Cyprus?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:9",
+      "dialog_node": "response_2_1581857205167",
+      "previous_sibling": "response_8_1581857204008"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Russia?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:35",
+      "dialog_node": "response_8_1581857231347",
+      "previous_sibling": "response_4_1581857230396"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Montenegro?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:28",
+      "dialog_node": "response_3_1581857224351",
+      "previous_sibling": "response_9_1581857223062"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Czech Republic?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:10",
+      "dialog_node": "response_7_1581857206103",
+      "previous_sibling": "response_2_1581857205167"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Switzerland?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:42",
+      "dialog_node": "response_3_1581857239811",
+      "previous_sibling": "response_3_1581857238771"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Netherlands?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:29",
+      "dialog_node": "response_5_1581857225472",
+      "previous_sibling": "response_3_1581857224351"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Luxembourg?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:24",
+      "dialog_node": "response_10_1581857219598",
+      "previous_sibling": "response_1_1581857218653"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Vatican City?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:45",
+      "dialog_node": "response_8_1581857243413",
+      "previous_sibling": "response_1_1581857241992"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Latvia?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:21",
+      "dialog_node": "response_4_1581857216326",
+      "previous_sibling": "response_7_1581857215415"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Hungary?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:17",
+      "dialog_node": "response_4_1581857212694",
+      "previous_sibling": "response_4_1581857211820"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the capital city of Andorra?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:2",
+      "dialog_node": "response_9_1574795114062",
+      "previous_sibling": "response_4_1574795120196"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Belgium?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:5",
+      "dialog_node": "response_4_1581857200722",
+      "previous_sibling": "response_3_1581857199409"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Monaco?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:27",
+      "dialog_node": "response_9_1581857223062",
+      "previous_sibling": "response_9_1581857221917"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Estonia?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:12",
+      "dialog_node": "response_6_1581857208050",
+      "previous_sibling": "response_7_1581857207104"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Moldova?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:26",
+      "dialog_node": "response_9_1581857221917",
+      "previous_sibling": "response_5_1581857220648"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Ireland?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:19",
+      "dialog_node": "response_6_1581857214519",
+      "previous_sibling": "response_4_1581857213613"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Slovenia?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:39",
+      "dialog_node": "response_10_1581857236010",
+      "previous_sibling": "response_7_1581857234308"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Bosnia and Herzegovina?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:6",
+      "dialog_node": "response_9_1581857201867",
+      "previous_sibling": "response_4_1581857200722"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Romania?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:34",
+      "dialog_node": "response_4_1581857230396",
+      "previous_sibling": "response_10_1581857229476"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Iceland?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:18",
+      "dialog_node": "response_4_1581857213613",
+      "previous_sibling": "response_4_1581857212694"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Portugal?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:33",
+      "dialog_node": "response_10_1581857229476",
+      "previous_sibling": "response_7_1581857228485"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Spain?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:40",
+      "dialog_node": "response_2_1581857237723",
+      "previous_sibling": "response_10_1581857236010"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Italy?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:20",
+      "dialog_node": "response_7_1581857215415",
+      "previous_sibling": "response_6_1581857214519"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Serbia?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:37",
+      "dialog_node": "response_4_1581857233346",
+      "previous_sibling": "response_7_1581857232350"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Ukraine?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:43",
+      "dialog_node": "response_10_1581857240844",
+      "previous_sibling": "response_3_1581857239811"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Belarus?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:4",
+      "dialog_node": "response_3_1581857199409",
+      "previous_sibling": "response_6_1581857197976"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Slovakia?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:38",
+      "dialog_node": "response_7_1581857234308",
+      "previous_sibling": "response_4_1581857233346"
+    },
+    {
+      "type": "standard",
+      "title": "Answers",
+      "parent": "node_7_1574792746740",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$number>=1",
+      "dialog_node": "node_9_1581860125320",
+      "previous_sibling": "response_8_1581857243413"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Poland?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:32",
+      "dialog_node": "response_7_1581857228485",
+      "previous_sibling": "response_7_1581857227517"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Denmark?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:11",
+      "dialog_node": "response_7_1581857207104",
+      "previous_sibling": "response_7_1581857206103"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Finland?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:13",
+      "dialog_node": "response_4_1581857209019",
+      "previous_sibling": "response_6_1581857208050"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Croatia?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:8",
+      "dialog_node": "response_8_1581857204008",
+      "previous_sibling": "response_5_1581857202980"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Norway?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:31",
+      "dialog_node": "response_7_1581857227517",
+      "previous_sibling": "response_1_1581857226466"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of France?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:14",
+      "dialog_node": "response_9_1581857210029",
+      "previous_sibling": "response_4_1581857209019"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Malta?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:25",
+      "dialog_node": "response_5_1581857220648",
+      "previous_sibling": "response_10_1581857219598"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Sweden?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:41",
+      "dialog_node": "response_3_1581857238771",
+      "previous_sibling": "response_2_1581857237723"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Bulgaria?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:7",
+      "dialog_node": "response_5_1581857202980",
+      "previous_sibling": "response_9_1581857201867"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Liechtenstein?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:22",
+      "dialog_node": "response_1_1581857217529",
+      "previous_sibling": "response_4_1581857216326"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of North Macedonia?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:30",
+      "dialog_node": "response_1_1581857226466",
+      "previous_sibling": "response_5_1581857225472"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Austria?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:3",
+      "dialog_node": "response_6_1581857197976",
+      "previous_sibling": "response_9_1574795114062"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of San Marino?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:36",
+      "dialog_node": "response_7_1581857232350",
+      "previous_sibling": "response_8_1581857231347"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of United Kingdom?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:44",
+      "dialog_node": "response_1_1581857241992",
+      "previous_sibling": "response_10_1581857240844"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "What is the capital city of Albania?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1574792746740",
+      "conditions": "$number:1",
+      "dialog_node": "response_4_1574795120196"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Luxembourg is Luxembourg."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Luxembourg",
+      "dialog_node": "response_3_1581855090487",
+      "previous_sibling": "response_2_1581855089373"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Ukraine is Kiev."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Ukraine",
+      "dialog_node": "response_9_1581855234754",
+      "previous_sibling": "response_5_1581855233905"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Croatia is Zagreb."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Croatia",
+      "dialog_node": "response_10_1581854924175",
+      "previous_sibling": "response_3_1581854922933"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Netherlands is Amsterdam."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Netherlands",
+      "dialog_node": "response_2_1581855164020",
+      "previous_sibling": "response_5_1581855162754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Sweden is Stockholm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Sweden",
+      "dialog_node": "response_9_1581855220437",
+      "previous_sibling": "response_1_1581855219069"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Iceland is Reykjavík."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Iceland",
+      "dialog_node": "response_5_1581854938663",
+      "previous_sibling": "response_1_1581854937526"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Hungary is Budapest."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Hungary",
+      "dialog_node": "response_1_1581854937526",
+      "previous_sibling": "response_5_1581854936278"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Denmark is Copenhagen."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Denmark",
+      "dialog_node": "response_4_1581854928337",
+      "previous_sibling": "response_7_1581854927049"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Liechtenstein is Vaduz."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Liechtenstein",
+      "dialog_node": "response_8_1581855088423",
+      "previous_sibling": "response_8_1581855087152"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Vatican City is Vatican City."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:(Vatican City)",
+      "dialog_node": "response_9_1581855249758",
+      "previous_sibling": "response_7_1581855248594"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "This state is not in Europe. Try again or you can try rephrasing."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1583858289943",
+      "previous_sibling": "response_10_1581855510649"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Austria is Vienna."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Austria",
+      "dialog_node": "response_1_1581854919546",
+      "previous_sibling": "response_5_1581845948781"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of France is Paris."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:France",
+      "dialog_node": "response_3_1581854931989",
+      "previous_sibling": "response_5_1581854930733"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of United Kingdom is London."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:(United Kingdom)",
+      "dialog_node": "response_7_1581855248594",
+      "previous_sibling": "response_9_1581855234754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Italy is Rome."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Italy",
+      "dialog_node": "response_7_1581854941970",
+      "previous_sibling": "response_2_1581854940191"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Spain is Madrid."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Spain",
+      "dialog_node": "response_1_1581855219069",
+      "previous_sibling": "response_2_1581855218228"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Germany is Berlin."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Germany",
+      "dialog_node": "response_8_1581854934694",
+      "previous_sibling": "response_3_1581854931989"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Norway is Oslo."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Norway",
+      "dialog_node": "response_6_1581855165120",
+      "previous_sibling": "response_2_1581855164020"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Russia is Moscow."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Russia",
+      "dialog_node": "response_5_1581855509265",
+      "previous_sibling": "response_10_1581855507351"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Switzerland is Bern."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Switzerland",
+      "dialog_node": "response_5_1581855233905",
+      "previous_sibling": "response_9_1581855220437"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Montenegro is Podgorica."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Montenegro",
+      "dialog_node": "response_5_1581855162754",
+      "previous_sibling": "response_1_1581855161668"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Finland is Helsinki."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Finland",
+      "dialog_node": "response_5_1581854930733",
+      "previous_sibling": "response_2_1581854929601"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Poland is Warsaw."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Poland",
+      "dialog_node": "response_3_1581855188283",
+      "previous_sibling": "response_6_1581855165120"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Bulgaria is Sofia."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Bulgaria",
+      "dialog_node": "response_3_1581854922933",
+      "previous_sibling": "response_7_1581854921804"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Slovenia is Ljubljana."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Slovenia",
+      "dialog_node": "response_2_1581855218228",
+      "previous_sibling": "response_1_1581855193226"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Belgium is Brussels."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Belgium",
+      "dialog_node": "response_7_1581854921804",
+      "previous_sibling": "response_10_1581854920694"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of North Macedonia is Skopje."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:(North Macedonia)",
+      "dialog_node": "response_2_1581855091545",
+      "previous_sibling": "response_3_1581855090487"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Monaco is Monaco."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Monaco",
+      "dialog_node": "response_1_1581855161668",
+      "previous_sibling": "response_7_1581855160794"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Portugal is Lisbon."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Portugal",
+      "dialog_node": "response_9_1581855189393",
+      "previous_sibling": "response_3_1581855188283"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Malta is Valletta."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Malta",
+      "dialog_node": "response_5_1581855141480",
+      "previous_sibling": "response_2_1581855091545"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Ireland is Dublin."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Ireland",
+      "dialog_node": "response_2_1581854940191",
+      "previous_sibling": "response_5_1581854938663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Romania is Bucharest."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Romania",
+      "dialog_node": "response_3_1581855190874",
+      "previous_sibling": "response_9_1581855189393"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Greece is Athens."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Greece",
+      "dialog_node": "response_5_1581854936278",
+      "previous_sibling": "response_8_1581854934694"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Slovakia is Bratislava."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Slovakia",
+      "dialog_node": "response_1_1581855193226",
+      "previous_sibling": "response_2_1581855191930"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Bosnia and Herzegovina is Sarajevo."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:(Bosnia and Herzegovina)",
+      "dialog_node": "response_10_1581855507351",
+      "previous_sibling": "response_9_1581855249758"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Latvia is Riga."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Latvia",
+      "dialog_node": "response_8_1581855087152",
+      "previous_sibling": "response_7_1581854941970"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Andorra is Andorra la Vella."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Andorra",
+      "dialog_node": "response_5_1581845948781",
+      "previous_sibling": "response_7_1581845909938"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Serbia is Belgrade."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Serbia",
+      "dialog_node": "response_10_1581855510649",
+      "previous_sibling": "response_5_1581855509265"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Moldova is Chisinau."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Moldova",
+      "dialog_node": "response_7_1581855160794",
+      "previous_sibling": "response_5_1581855141480"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of San Marino is San Marino."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:(San Marino)",
+      "dialog_node": "response_2_1581855191930",
+      "previous_sibling": "response_3_1581855190874"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Estonia is Tallinn."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Estonia",
+      "dialog_node": "response_2_1581854929601",
+      "previous_sibling": "response_4_1581854928337"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Lithuania is Vilnius."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Lithuania",
+      "dialog_node": "response_2_1581855089373",
+      "previous_sibling": "response_8_1581855088423"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The capital city of Czech Republic is Prague."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:(Czech Republic)",
+      "dialog_node": "response_7_1581854927049",
+      "previous_sibling": "response_5_1581854925855"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Belarus is Minsk."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Belarus",
+      "dialog_node": "response_10_1581854920694",
+      "previous_sibling": "response_1_1581854919546"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The capital city of Cyprus is Nicosia."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Cyprus",
+      "dialog_node": "response_5_1581854925855",
+      "previous_sibling": "response_10_1581854924175"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The capital city of Albania is Tirana."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1581845860094",
+      "conditions": "@state:Albania",
+      "dialog_node": "response_7_1581845909938"
+    },
+    {
+      "type": "standard",
+      "title": "ResponsePositive",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "YES."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1574961633999",
+      "context": {
+        "action": {
+          "cmdType": "led_change_color",
+          "cmdPayload": {
+            "color": "green"
+          }
+        },
+        "counter": "<? $counter? $counter+ 1  : 0 ?>",
+        "counterOfCorrect": "<? $counterOfCorrect + 1 ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1575111882920"
+      },
+      "conditions": "",
+      "dialog_node": "node_5_1574793071876",
+      "previous_sibling": "node_7_1574793104380"
+    },
+    {
+      "type": "standard",
+      "title": "ResponseNegative",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NO."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1574961633999",
+      "context": {
+        "action": {
+          "cmdType": "led_change_color",
+          "cmdType2": "wave_arm",
+          "cmdPayload": {
+            "color": "red"
+          },
+          "cmdPayload2": {
+            "position": "wave"
+          }
+        },
+        "counter": "<? $counter? $counter+ 1  : 0 ?>",
+        "counterOfFalse": "<? $counterOfFalse+ 1 ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1575111882920"
+      },
+      "conditions": "",
+      "dialog_node": "node_7_1574793104380",
+      "previous_sibling": "node_10_1575111882920"
+    },
+    {
+      "type": "standard",
+      "title": "Preprocessing",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1574961633999",
+      "context": {
+        "number": "<? new Random().nextInt(45)+1 ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "",
+      "dialog_node": "node_10_1575111882920"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:43 && @capital:Kiev",
+      "dialog_node": "response_10_1581870161901",
+      "previous_sibling": "response_8_1581870161017"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:21 && @capital:Riga",
+      "dialog_node": "response_6_1581870141777",
+      "previous_sibling": "response_6_1581870140917"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:34 && @capital:Bucharest",
+      "dialog_node": "response_5_1581870153336",
+      "previous_sibling": "response_2_1581870152370"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:42 && @capital:Bern",
+      "dialog_node": "response_8_1581870161017",
+      "previous_sibling": "response_9_1581870159943"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:11 && @capital:Copenhagen",
+      "dialog_node": "response_6_1581870126110",
+      "previous_sibling": "response_5_1581870125077"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:24 && @capital:Luxembourg",
+      "dialog_node": "response_7_1581870144401",
+      "previous_sibling": "response_8_1581870143559"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:45 && @capital:(Vatican City)",
+      "dialog_node": "response_7_1581870163946",
+      "previous_sibling": "response_5_1581870162916"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:28 && @capital:Podgorica",
+      "dialog_node": "response_9_1581870147892",
+      "previous_sibling": "response_1_1581870146955"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:38 && @capital:Bratislava",
+      "dialog_node": "response_1_1581870157142",
+      "previous_sibling": "response_10_1581870156188"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:44 && @capital:London",
+      "dialog_node": "response_5_1581870162916",
+      "previous_sibling": "response_10_1581870161901"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:18 && @capital:Reykjavík",
+      "dialog_node": "response_10_1581870138931",
+      "previous_sibling": "response_4_1581870137939"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:7 && @capital:Sofia",
+      "dialog_node": "response_8_1581870122018",
+      "previous_sibling": "response_1_1581870120778"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:6 && @capital:Sarajevo",
+      "dialog_node": "response_1_1581870120778",
+      "previous_sibling": "response_1_1581870119577"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:3 && @capital:Vienna",
+      "dialog_node": "response_10_1581870117615",
+      "previous_sibling": "response_7_1581860281731"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:15 && @capital:Berlin",
+      "dialog_node": "response_4_1581870135961",
+      "previous_sibling": "response_4_1581870135185"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1574793104380"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1581870165003",
+      "previous_sibling": "response_7_1581870163946"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:25 && @capital:Valletta",
+      "dialog_node": "response_6_1581870145213",
+      "previous_sibling": "response_7_1581870144401"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:22 && @capital:Vaduz",
+      "dialog_node": "response_9_1581870142642",
+      "previous_sibling": "response_6_1581870141777"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:35 && @capital:Moscow",
+      "dialog_node": "response_6_1581870154302",
+      "previous_sibling": "response_5_1581870153336"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:13 && @capital:Helsinki",
+      "dialog_node": "response_5_1581870128224",
+      "previous_sibling": "response_1_1581870127183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:9 && @capital:Nicosia",
+      "dialog_node": "response_5_1581870124084",
+      "previous_sibling": "response_2_1581870123072"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:32 && @capital:Warsaw",
+      "dialog_node": "response_5_1581870151479",
+      "previous_sibling": "response_1_1581870150590"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:2 && @capital:(Andorra la Vella)",
+      "dialog_node": "response_7_1581860281731",
+      "previous_sibling": "response_6_1581860160503"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:17 && @capital:Budapest",
+      "dialog_node": "response_4_1581870137939",
+      "previous_sibling": "response_4_1581870137003"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:20 && @capital:Rome",
+      "dialog_node": "response_6_1581870140917",
+      "previous_sibling": "response_4_1581870139957"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:10 && @capital:Prague",
+      "dialog_node": "response_5_1581870125077",
+      "previous_sibling": "response_5_1581870124084"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:26 && @capital:Chisinau",
+      "dialog_node": "response_3_1581870146091",
+      "previous_sibling": "response_6_1581870145213"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:14 && @capital:Paris",
+      "dialog_node": "response_4_1581870135185",
+      "previous_sibling": "response_5_1581870128224"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:41 && @capital:Stockholm",
+      "dialog_node": "response_9_1581870159943",
+      "previous_sibling": "response_3_1581870159030"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:31 && @capital:Oslo",
+      "dialog_node": "response_1_1581870150590",
+      "previous_sibling": "response_10_1581870149609"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:27 && @capital:Monaco",
+      "dialog_node": "response_1_1581870146955",
+      "previous_sibling": "response_3_1581870146091"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:30 && @capital:Skopje",
+      "dialog_node": "response_10_1581870149609",
+      "previous_sibling": "response_4_1581870148720"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:12 && @capital:Tallinn",
+      "dialog_node": "response_1_1581870127183",
+      "previous_sibling": "response_6_1581870126110"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:29 && @capital:Amsterdam",
+      "dialog_node": "response_4_1581870148720",
+      "previous_sibling": "response_9_1581870147892"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:37 && @capital:Belgrade",
+      "dialog_node": "response_10_1581870156188",
+      "previous_sibling": "response_4_1581870155259"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:19 && @capital:Dublin",
+      "dialog_node": "response_4_1581870139957",
+      "previous_sibling": "response_10_1581870138931"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:4 && @capital:Minsk",
+      "dialog_node": "response_4_1581870118688",
+      "previous_sibling": "response_10_1581870117615"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:33 && @capital:Lisbon",
+      "dialog_node": "response_2_1581870152370",
+      "previous_sibling": "response_5_1581870151479"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:36 && @capital:(San Marino)",
+      "dialog_node": "response_4_1581870155259",
+      "previous_sibling": "response_6_1581870154302"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:8 && @capital:Zagreb",
+      "dialog_node": "response_2_1581870123072",
+      "previous_sibling": "response_8_1581870122018"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:39 && @capital:Ljubljana",
+      "dialog_node": "response_3_1581870158069",
+      "previous_sibling": "response_1_1581870157142"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:16 && @capital:Athens",
+      "dialog_node": "response_4_1581870137003",
+      "previous_sibling": "response_4_1581870135961"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:23 && @capital:Vilnius",
+      "dialog_node": "response_8_1581870143559",
+      "previous_sibling": "response_9_1581870142642"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:40 && @capital:Madrid",
+      "dialog_node": "response_3_1581870159030",
+      "previous_sibling": "response_3_1581870158069"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:5 && @capital:Brussels",
+      "dialog_node": "response_1_1581870119577",
+      "previous_sibling": "response_4_1581870118688"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1581860125320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1574793071876"
+      },
+      "conditions": "$number:1 && @capital:Tirana",
+      "dialog_node": "response_6_1581860160503"
+    },
+    {
+      "type": "standard",
+      "title": "Counters",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "End of the test."
+              },
+              {
+                "text": "Number of correct answers: $counterOfCorrect."
+              },
+              {
+                "text": "Number of wrong answers: $counterOfFalse"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1575111882920",
+      "context": {
+        "number": null,
+        "counter": 0,
+        "numOfGenQuestions": null
+      },
+      "conditions": "($counterOfFalse+$counterOfCorrect)>=$numOfGenQuestions",
+      "dialog_node": "node_10_1575112515047",
+      "previous_sibling": "node_7_1574792746740"
+    },
+    {
+      "type": "standard",
+      "title": "Questions",
+      "parent": "node_10_1575111882920",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "($counterOfFalse+$counterOfCorrect)<$numOfGenQuestions",
+      "dialog_node": "node_7_1574792746740"
+    },
+    {
+      "type": "frame",
+      "title": "LearningCapitalCities",
+      "parent": "node_4_1574961690598",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Learning",
+      "dialog_node": "node_7_1581845860094"
+    },
+    {
+      "type": "folder",
+      "title": "LearningSession",
+      "conditions": "#Learning",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1574961690598",
+      "previous_sibling": "node_3_1582299962380"
+    },
+    {
+      "type": "folder",
+      "title": "TestingSession",
+      "conditions": "",
+      "dialog_node": "node_7_1574961633999",
+      "previous_sibling": "node_10_1575099037748"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "action": {
+          "cmdType": "led_turn_off"
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1581844681469",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Farewell",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What a pleasant chat. Hope to see you soon!"
+              },
+              {
+                "text": "Till next time, then."
+              },
+              {
+                "text": "Goodbye, my dear."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {
+        "action": {
+          "cmdType": "wave_arm",
+          "cmdType2": "led_turn_off",
+          "cmdPayload": {
+            "position": "wave"
+          }
+        }
+      },
+      "conditions": "#Goodbye",
+      "dialog_node": "node_3_1581844681469",
+      "previous_sibling": "node_7_1574961633999"
+    },
+    {
+      "type": "frame",
+      "title": "PrepareNoOfQuestions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's test $numOfGenQuestions questions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "action": {
+          "cmdType": "led_turn_off"
+        },
+        "counterOfFalse": 0,
+        "counterOfCorrect": 0
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1575111882920"
+      },
+      "conditions": "#Testing",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1575099037748",
+      "previous_sibling": "node_4_1574961690598"
+    },
+    {
+      "type": "standard",
+      "title": "Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You may try phrases like this one: Let's do the test, or What is the capital city of England?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "action": {
+          "cmdType": "led_turn_off"
+        }
+      },
+      "conditions": "#Help",
+      "dialog_node": "node_3_1582299962380",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I'm here to talk about capital cities in Europe. You can ask me, what is the capital city of your chosen country. Or you can take a quiz to test your knowledge."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {
+        "action": {
+          "cmdType": "led_turn_off"
+        },
+        "counter": 0,
+        "counterOfFalse": 0,
+        "counterOfCorrect": 0
+      },
+      "conditions": "welcome || #Hello",
+      "digress_in": "does_not_return",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "TJBot_Project",
+  "language": "en",
+  "description": "Chatbot designed for TJBot for school project. Author Martin Halada."
+}
